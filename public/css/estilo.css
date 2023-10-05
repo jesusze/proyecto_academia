@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 *{
     margin: 0;
@@ -14,23 +15,27 @@ header{
     width: 100%;
     height: 13vh;
 }
+
 .nav{
     position: fixed;
     width: 100%;
+    background: linear-gradient(to right, #efefbb, #d4d3dd);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px;
-    font-size: 23px;
+    padding: 9px;
+    font-size: 18px;
+    z-index: 1000;
     transition: all 0.5s ease;
+    border-bottom: solid #000000 1px;
 }
 .nav.active{
-    background: #fff;
+    background: linear-gradient(to left, #ffefbaee, #ffffffee);
     padding: 5px;
 }
 .nav.active .logo,
 .nav.active a{
-    color: #65adff;
+    color: #0077ff;
 }
 .nav.active a:hover{
     background: #000;
@@ -41,7 +46,7 @@ header{
     padding-left: 50px;
 }
 .header .logo img{
-    height: 70px;
+    height: 75px;
     width: auto;
     transition: all 0.3s;
 }
@@ -52,14 +57,16 @@ header{
     list-style: none;
     display: flex;
     justify-content: space-around;
+    padding-right: 35px;
 }
 .menu-horizontal li{
     list-style: none;
     margin: 10px;
+    padding-top: 15px;
     padding-bottom: 15px;
 }
 .menu-horizontal li a{
-    color: #65adff;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
     transition: all 0.5s ease;
@@ -78,39 +85,60 @@ header{
     display: none;
     list-style: none;
     width: 300px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.851);
     border-radius: 15px;
     margin-top: 15px;
 }
+.menu-vertical li{
+    margin-top: -5px;
+    margin-bottom: -8px;
+}
 .menu-vertical li a{
     display: block;
-    color: #65adff;
+    color: #000000;
     text-decoration: none;
 }
 .scroll{
     height: 500px;
 }
+
 /* CARRUSEL */
 
+.slider{
+    position: relative; /* Necesario para posicionar las imágenes */
+    width: 100%; /* Ancho del carrusel */
+    height: 800px; /* Altura del carrusel */
+    overflow: hidden; /* Ocultar el desbordamiento */
+    margin-top: -27px;
+
+}
 .slide {
-    padding: 350px;
+    position: absolute; /* Posición absoluta para superponer las imágenes */
+    width: 100%; /* Ancho del carrusel */
+    height: 100%; /* Altura del carrusel */
     background-size: cover;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+.slide.active {
+opacity: 1; /* Mostramos la imagen activa */
 }
 .s1 {
-    background-image: url(../img/img1.jpg);
+    background-image: url(../img/img1.jpeg);
+    background-size: 100% 100%;
+    
 }
 .s2 {
-    background-image: url(../img/img2.jpg);
-    display: none;
+    background-image: url(../img/img2.jpeg);
+    background-size: 100% 100%;
 }
 .s3 {
-    background-image: url(../img/img3.jpg);
-    display: none;
+    background-image: url(../img/img3.jpeg);
+    background-size: 100% 100%;
 }
-
 .button {
-    font-size: 40pt;
-    color: yellow;
+    font-size: 25pt;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     position: absolute;
     top: 40%;
@@ -131,7 +159,7 @@ header{
     left: 10px;
 }
 
-/*PAGINACIÓN*/
+/*PAGINATION*/
 
 .pagination {
     position: absolute;
@@ -155,4 +183,71 @@ header{
 .pagination li:hover {
     background-color: rgb(255, 255, 255);
     transition: 0.5s;
+}
+
+/*CONTENT*/
+.linea {
+    border-top: 8px solid rgba(207,207,207);
+    height: 2px;
+    max-width: 91px;
+    padding: 0;
+    margin: 50px auto 0 auto;
+}
+.title-text{
+    color: #9a8b06 ;
+    padding: 25px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.container-info-1{
+    display: flex;
+    margin-top: 70px;
+}
+.container-info-2{
+    display: flex;
+    margin-top: 70px;
+}
+.container-text-info{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    flex-direction: row;
+    margin-left: 120px;
+    font-family: 'Merriweather', serif;
+}
+.container-img-info{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    margin-right: 200px;
+}
+.text-title{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.text-info {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.image-info {
+    flex: 1;
+    margin-left: 10px;
+}
+.image-info img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }

@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route:get('Inicio',function(){
-    return "HOLA COMO ESTAN XD";
+Route::get('inicio',function(){
+    return view('Inicio');
 });

@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../../public/css/estilo.css">
-        <link rel="shortcut icon" href="../../public/img/favicon.png">
+        <link rel="stylesheet" href="{{asset('css/estilo.css')}}">
+        <link rel="shortcut icon" href="{{asset('img/favicon.png')}}">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -13,9 +13,9 @@
 
     <header class="header">
         <nav class="nav">
-            <div class="logo"><img src="../../public/img/Logo.png" alt="s"></div>
+            <div class="logo"><img src="{{asset('img/Logo.png')}}" alt="s"></div>
             <ul class="menu-horizontal">
-                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="inicio">Inicio</a></li>
                 <li>
                     <a href="#">Cursos</a>
                     <ul class="menu-vertical">
@@ -104,14 +104,15 @@
             </div>
             <div class="container-img-info">
                 <div class="image-info">
-                    <img src="../../public/img/laywer.jpg" alt="Imagen referente">
+                    <img src="{{asset('img/laywer.jpg')}}" alt="Imagen referente">
                 </div>
             </div>
         </div>
+
         <div class="container-info">
             <div class="container-img-info-2">
                 <div class="image-info-2">
-                    <img src="../../public/img/laywer.jpg" alt="Imagen referente">
+                    <img src="{{asset('img/laywer.jpg')}}" alt="Imagen referente">
                 </div>
             </div>
             <div class="container-text-info-2">
@@ -159,7 +160,7 @@
             <div class="box">
                 <figure>
                     <a href="#">
-                        <img src="../../public/img/Logo.png" alt="Logo de SLee Dw">
+                        <img src="{{asset('img/Logo.png')}}" alt="Logo de SLee Dw">
                     </a>
                 </figure>
             </div>
@@ -182,6 +183,6 @@
             <small>&copy; 2021 <b>SLee Dw</b> - Todos los Derechos Reservados.</small>
         </div>
         </footer>
-        <script src="../../public/js/funciones.js"></script>
+        <script src="{{asset('js/funciones.js')}}"></script>
     </body>
 </html>

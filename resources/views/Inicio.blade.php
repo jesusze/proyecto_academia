@@ -155,11 +155,15 @@
         <div id="button-up">
             <i class="fas fa-chevron-up"></i>
         </div>
-        <footer class="pie-pagina">
+
+        <script src="{{asset('js/funciones.js')}}"></script>
+    </body>
+    
+    <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
                 <figure>
-                    <a href="#">
+                    <a href="inicio">
                         <img src="{{asset('img/Logo.png')}}" alt="Logo de SLee Dw">
                     </a>
                 </figure>
@@ -182,7 +186,5 @@
         <div class="grupo-2">
             <small>&copy; 2021 <b>SLee Dw</b> - Todos los Derechos Reservados.</small>
         </div>
-        </footer>
-        <script src="{{asset('js/funciones.js')}}"></script>
-    </body>
+    </footer>
 </html>

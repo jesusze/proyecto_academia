@@ -70,25 +70,23 @@
         <div class="container-info">
             <div class="container-text-info">
                 <div class="text-title">
-                    <h3>Lorem, ipsum.</h3>
+                    <h3>Acerca de la tesis</h3>
                 </div>
                 <div class="text-info">
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet
-                        reiciendis quisquam explicabo Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Tenetur corporis amet reiciendis quisquam explicabo Tenetur corporis amet
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                        reiciendis quisquam explicabo Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Tenetur corporis amet reiciendis quisquam explicabo
+                        Uno de los mayores desafíos para los profesionales y estudiosos del Derecho es poder obtener los grados académicos 
+                        (Maestría y Doctorado) y el Título Profesional con la sustentación de una investigación jurídica (tesis o tesina). 
+                        Resulta un gran reto, por las dificultades que presenta la metodología de investigación: desde elegir el tema con 
+                        la identificación de los problemas de investigación y el planteamiento de las hipótesis hasta definir los aspectos 
+                        del diseño metodológico.
+
+
                     </p>
                 </div>
             </div>
             <div class="container-img-info">
                 <div class="image-info">
-                    <img src={{asset('img/graduados.jpeg')}}" alt="Imagen referente">
+                    <img src="{{asset('img/graduados.jpeg')}}" alt="Imagen referente">
                 </div>
             </div>
         </div>

@@ -79,8 +79,6 @@
                         Resulta un gran reto, por las dificultades que presenta la metodología de investigación: desde elegir el tema con 
                         la identificación de los problemas de investigación y el planteamiento de las hipótesis hasta definir los aspectos 
                         del diseño metodológico.
-
-
                     </p>
                 </div>
             </div>

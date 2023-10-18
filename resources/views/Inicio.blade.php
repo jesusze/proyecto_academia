@@ -77,76 +77,18 @@
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet
                         reiciendis quisquam explicabo Lorem, ipsum dolor sit amet consectetur adipisicing
                         elit. Tenetur corporis amet reiciendis quisquam explicabo Tenetur corporis amet
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                        reiciendis quisquam explicabo ipsum dolor sit amet consectetur adipisicing elit.
-                        Tenetur corporis amet reiciendis quisquam explicabo tempora?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
                         reiciendis quisquam explicabo Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Tenetur corporis amet reiciendis quisquam explicabo Tenetur corporis amet 
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                        reiciendis quisquam explicabo ipsum dolor sit amet consectetur adipisicing elit. 
-                        Tenetur corporis amet reiciendis quisquam explicabo tempora?
-                    </p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                        reiciendis quisquam explicabo Lorem, ipsum dolor sit amet consectetur adipisicing
-                         elit. Tenetur corporis amet reiciendis quisquam explicabo Tenetur corporis amet 
-                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                         reiciendis quisquam explicabo ipsum dolor sit amet consectetur adipisicing elit. 
-                         Tenetur corporis amet reiciendis quisquam explicabo tempora?
+                        elit. Tenetur corporis amet reiciendis quisquam explicabo
                     </p>
                 </div>
             </div>
             <div class="container-img-info">
                 <div class="image-info">
-                    <img src="{{asset('img/laywer.jpg')}}" alt="Imagen referente">
-                </div>
-            </div>
-        </div>
-
-        <div class="container-info">
-            <div class="container-img-info-2">
-                <div class="image-info-2">
-                    <img src="{{asset('img/laywer.jpg')}}" alt="Imagen referente">
-                </div>
-            </div>
-            <div class="container-text-info-2">
-                <div class="text-title">
-                    <h3>Lorem, ipsum.</h3>
-                </div>
-                <div class="text-info">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet
-                        reiciendis quisquam explicabo Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Tenetur corporis amet reiciendis quisquam explicabo Tenetur corporis amet
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                        reiciendis quisquam explicabo ipsum dolor sit amet consectetur adipisicing elit.
-                        Tenetur corporis amet reiciendis quisquam explicabo tempora?
-                    </p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                        reiciendis quisquam explicabo Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Tenetur corporis amet reiciendis quisquam explicabo Tenetur corporis amet 
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                        reiciendis quisquam explicabo ipsum dolor sit amet consectetur adipisicing elit. 
-                        Tenetur corporis amet reiciendis quisquam explicabo tempora?
-                    </p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                        reiciendis quisquam explicabo Lorem, ipsum dolor sit amet consectetur adipisicing
-                         elit. Tenetur corporis amet reiciendis quisquam explicabo Tenetur corporis amet 
-                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis amet 
-                         reiciendis quisquam explicabo ipsum dolor sit amet consectetur adipisicing elit. 
-                         Tenetur corporis amet reiciendis quisquam explicabo tempora?
-                    </p>
+                    <img src={{asset('img/graduados.jpeg')}}" alt="Imagen referente">
                 </div>
             </div>
         </div>

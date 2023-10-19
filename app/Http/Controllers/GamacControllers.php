@@ -10,12 +10,17 @@ class GamacControllers extends Controller
         return view("Inicio");
     }
     public function juzgado(){
-        return view("Juzgados");
+        $section = 'juzgado';
+        return view("Juzgados", compact('section'));
     }
+    
     public function superior(){
-        return view("SalaSuperior");
+        $section = 'sala-superior';
+        return view("Juzgados", compact('section'));
     }
+    
     public function suprema(){
-        return view("SalaSuprema");
+        $section = 'sala-suprema';
+        return view("Juzgados", compact('section'));
     }
 }
